@@ -1,7 +1,7 @@
 git init (dentro del directorio activo)
 
 git add Fichero
-
+git add . (Entra en todas las carpetas y subcarpetas)
 git commit -m "Mensaje"
 git status
 
@@ -45,4 +45,9 @@ git push -u origin master
 Push an existing repository from the command line
 git remote add origin https://github.com/slorth/escuelaITproyecto.git
 git push -u origin master
+
+Ayuda git --help
+
+Volver a version anterior
+
 
