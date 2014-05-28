@@ -1,0 +1,13 @@
+git init (dentro del directorio activo)
+
+git add Fichero
+
+git commit -m "Mensaje"
+git status
+
+git log (Muestra los commits que se han hecho)
+git log --oneline  TRUCO!!!! Aparece abreviado
+
+//Hacerlo la primera vez que lo instalas en tu maquina
+git config --global user.name ""
+git config --global user.email ""
