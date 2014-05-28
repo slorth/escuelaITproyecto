@@ -11,3 +11,38 @@ git log --oneline  TRUCO!!!! Aparece abreviado
 //Hacerlo la primera vez que lo instalas en tu maquina
 git config --global user.name ""
 git config --global user.email ""
+
+//Subir cambios a github.com o bitbucked (es otro similar)
+
+Crear usuario en github.com
+Crear repositorio en github.com
+Vinculamos el repositorio remoto de gituub con el usuario local
+git remote add alias https://github.com/slorth/escuelaITproyecto.git
+
+Ver los remotos
+git remote -v
+Subir los cambios (empujar) al remoto
+
+git push alias rama
+
+Traerme un repositorio git clone y la direccion (Lo clona)
+Creo proeycto en github
+en local pongo una carpeta y le doy a git clone y la direccion (lo clona)
+TE crea el alias origin
+Con lo cual cuando subes el fichero a este nuevo report lo haces con git push origin master 
+
+
+Te sale lo siguiente 
+
+Create a new repository on the command line
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/slorth/escuelaITproyecto.git
+git push -u origin master
+
+Push an existing repository from the command line
+git remote add origin https://github.com/slorth/escuelaITproyecto.git
+git push -u origin master
+
